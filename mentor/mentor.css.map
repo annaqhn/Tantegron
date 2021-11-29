@@ -1,8 +1,8 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,SAAS;CACpB",
     "sources": [
-        "mentor.sass"
+        "mentor.scss"
     ],
     "names": [],
     "file": "mentor.css"
