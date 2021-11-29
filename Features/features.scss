@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+$primary-color: #8e9775;
+$secondary-color: #CCCCCC;
+$text-color: #000000;
+
+/*start of header*/
+header{
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  height: 130px;
+  text-align: center;
+  width: 100%;
+}
+
+.burgermenu{
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.logo img{
+  height: 90px;
+  margin-top: 20px;
+}
+
+.basket{
+  cursor: pointer;
+	float: right;
+	font-size: 20px;
+  padding-top: 30px;
+  padding-right: 100%;
+}
+
+.circle{
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  font-size: 20px;
+  height: 40px;
+  padding: 8px;
+  width: 40px;
+}
+/*end of header*/
+
+
+
+
+/*start of excluesive navigation*/
+.exclusive{
+  list-style: none;
+  text-align: center;
+  height: 50px;
+}
+
+.exclusive li{
+  display: inline-block;
+  margin: 15px 30px;
+}
+
+.exclusive li a{
+  color: $text-color;
+  text-decoration: none;
+}
+
+.exclusive li a:hover {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+/*end of excluesive navigation*/
+
+
+
+
+/*start of title section*/
+.title-section{
+  background: $secondary-color;
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+}
+
+
+.title-section a{
+  color: $text-color;
+  text-decoration: none;
+}
+
+.title-section p{
+  color: 	#707070;
+}
+
+.title-section h1{
+  padding-top: 10px;
+  font-size: 40px;
+}
+/*end of title section*/
+
+
+
+
+/*start of bottom navigation*/
+.bottom-nav {
+  bottom: 0;
+  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  height: 50px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-nav i{
+	color: $text-color;
+  font-size: 20px;
+  margin: 15px 30px;
+}
+/*end of bottom navigation*/
