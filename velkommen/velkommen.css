@@ -40,48 +40,42 @@ header {
   width: 40px; }
 
 /*end of header*/
-/*start of excluesive navigation*/
-.exclusive {
-  list-style: none;
+/*start of welcome section*/
+.welcome {
+  margin-top: 150px; }
+
+.welcome h1 {
+  font-size: 30px;
+  text-align: center; }
+
+.welcome p {
   font-size: 15px;
-  text-align: center;
-  height: 50px; }
+  margin: 20px;
+  text-align: center; }
 
-.exclusive li {
-  display: inline-block;
-  margin: 15px 30px; }
+/*horizontal line*/
+.eller {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
-.exclusive li a {
-  color: #000000;
-  text-decoration: none; }
-
-.exclusive li a:hover {
-  color: #8e9775;
-  text-decoration: underline; }
-
-/*end of excluesive navigation*/
-/*start of title section*/
-.title-section {
-  background: #CCCCCC;
-  height: 200px;
-  text-align: center;
-  padding: 50px;
-  width: 100%; }
-
-.title-section a {
-  color: #000000;
-  text-decoration: none; }
-
-.title-section p {
+.eller h2 {
+  border-bottom: 1px solid #707070;
   color: #707070;
-  font-size: 15px; }
+  width: 80%;
+  font-size: 15px;
+  line-height: 0.1em;
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
-.title-section h1 {
-  padding-top: 10px;
-  font-size: 30px; }
+.eller h2 span {
+  background: #fff;
+  padding: 0 10px; }
 
-/*end of title section*/
-/*start of buttons*/
+/*buttons*/
 .buttons {
   text-align: center; }
 
@@ -111,7 +105,24 @@ header {
   -webkit-transition: 0.4s;
   transition: 0.4s; }
 
-/*end of buttons*/
+/*benefit list*/
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px; }
+
+.benefits ul {
+  list-style: none; }
+
+.benefits i {
+  color: #8e9775;
+  padding: 10px; }
+
+/*end of welcome section*/
 /*start of bottom navigation*/
 .bottom-nav {
   bottom: 0;
@@ -130,4 +141,4 @@ header {
 
 /*end of bottom navigation*/
 
-/*# sourceMappingURL=features.css.map */
+/*# sourceMappingURL=login.css.map */

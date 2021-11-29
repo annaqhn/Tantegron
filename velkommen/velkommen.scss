@@ -51,68 +51,45 @@ header{
 /*end of header*/
 
 
+/*start of welcome section*/
+.welcome{
+	margin-top: 150px;
+}
+
+.welcome h1{
+	font-size: $titles;
+	text-align: center;
+}
 
 
-/*start of excluesive navigation*/
-.exclusive{
-  list-style: none;
+.welcome p{
 	font-size: $body-text;
-  text-align: center;
-  height: 50px;
+	margin: 20px;
+	text-align: center;
 }
 
-.exclusive li{
-  display: inline-block;
-  margin: 15px 30px;
+/*horizontal line*/
+.eller{
+	display: flex;
+	justify-content: center;
 }
 
-.exclusive li a{
-  color: $text-color;
-  text-decoration: none;
-}
-
-.exclusive li a:hover {
-  color: $primary-color;
-  text-decoration: underline;
-}
-
-/*end of excluesive navigation*/
-
-
-
-
-/*start of title section*/
-.title-section{
-  background: $secondary-color;
-  height: 200px;
-  text-align: center;
-  padding: 50px;
-  width: 100%;
-}
-
-
-.title-section a{
-  color: $text-color;
-  text-decoration: none;
-}
-
-.title-section p{
-  color: 	#707070;
+.eller h2 {
+	border-bottom: 1px solid #707070;
+	color: #707070;
+	width: 80%;
 	font-size: $body-text;
+	line-height: 0.1em;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
-.title-section h1{
-  padding-top: 10px;
-  font-size: $titles;
+.eller h2 span {
+	background: #fff;
+	padding: 0 10px;
 }
-/*end of title section*/
 
-
-
-
-
-
-/*start of buttons*/
+/*buttons*/
 .buttons{
 	text-align: center;
 }
@@ -144,7 +121,31 @@ header{
 	color: #fff;
 	transition: 0.4s;
 }
-/*end of buttons*/
+
+/*benefit list*/
+.benefits{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.benefits ul{
+	list-style: none;
+}
+
+.benefits i{
+	color: $primary-color;
+	padding: 10px;
+}
+/*end of welcome section*/
+
+
+
+
+
+
+
+
 
 
 
