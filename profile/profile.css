@@ -25,19 +25,32 @@ main a {
   text-decoration: none;
 }
 
+main .clear-box {
+  padding: 20px;
+}
+
 main .green-box {
   background-color: #ECF0E1;
   padding: 20px;
 }
 
-main .password {
+main .red-box {
   background-color: #FFF1F1;
   padding: 20px;
   margin-top: 20px;
 }
 
-main .password hr {
+main .red-box hr {
   margin: 5px 0;
+}
+
+main .red-box .list {
+  margin-top: 20px;
+}
+
+main .red-box .list ul {
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 main .edit-info {
@@ -47,6 +60,15 @@ main .edit-info {
 
 main .edit-info .a-underline {
   text-decoration: underline;
+}
+
+main .change-password {
+  display: inline;
+}
+
+main .password-changed {
+  display: none;
+  text-align: center;
 }
 
 .flex {
@@ -67,5 +89,53 @@ main .edit-info .a-underline {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 10px;
+}
+
+.sidebar {
+  display: none;
+  background-color: white;
+  width: 290px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar .sidebar-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: inherit;
+  color: white;
+  padding: 20px 15px;
+  background-color: #8E9775;
+}
+
+.sidebar .sidebar-top button {
+  background: none;
+  border: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar .sidebar-content {
+  padding: 20px;
+}
+
+.sidebar .sidebar-content a {
+  color: #424542;
+  text-decoration: none;
+}
+
+.sidebar .sidebar-content hr {
+  margin: 5px 0;
 }
 /*# sourceMappingURL=profile.css.map */
