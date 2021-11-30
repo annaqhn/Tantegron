@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+$greenColor: #ECF0E1;
+$redColor: #FFF1F1;
+$greyColor: #EEEEEE;
+$primaryTextColor: #424542;
+$secondaryTextColor: #8E9775;
+$padding: 40px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 375px;
+    font-family: 'Jost', sans-serif;
+
+    color: $primaryTextColor;
+}
+
+main {
+    a {
+        color: $primaryTextColor;
+        text-decoration: none;
+    }
+    
+    .front-page {
+        padding: $padding;
+
+        background-image: url(../img/mentor-baggrund.png);
+        .testimonial {
+            font-size: 1.1rem;
+        }
+    
+        .mentor-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    }
+
+    .sorting {
+        display: flex;
+
+        button {
+            width: 50%;
+            padding: 5px;
+        }
+    }
+
+    .mentors {
+        padding: $padding;
+
+        .mentor {
+            display: flex;
+
+            margin-bottom: 40px;
+
+            img {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .mentor-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 50px 0;
+
+        img {
+            width: 15rem;
+            margin-bottom: 50px;
+        }
+
+        .mentor-info {
+            .info-piece {
+                display: flex;
+            }
+        }
+
+        .profile-text {
+            margin-top: 20px;
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    // .fixed-graphic {
+    //     position: fixed;
+    //     bottom: 0;
+    //     right: 0;
+
+    //     z-index: 950;
+    // }
+}

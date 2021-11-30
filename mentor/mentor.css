@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=mentor.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 375px;
+  font-family: 'Jost', sans-serif;
+  color: #424542;
+}
+
+main a {
+  color: #424542;
+  text-decoration: none;
+}
+
+main .front-page {
+  padding: 40px;
+  background-image: url(../img/mentor-baggrund.png);
+}
+
+main .front-page .testimonial {
+  font-size: 1.1rem;
+}
+
+main .front-page .mentor-options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 10px;
+}
+
+main .sorting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .sorting button {
+  width: 50%;
+  padding: 5px;
+}
+
+main .mentors {
+  padding: 40px;
+}
+
+main .mentors .mentor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+main .mentors .mentor img {
+  margin-right: 20px;
+}
+
+main .mentor-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 50px 0;
+}
+
+main .mentor-profile img {
+  width: 15rem;
+  margin-bottom: 50px;
+}
+
+main .mentor-profile .mentor-info .info-piece {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .mentor-profile .profile-text {
+  margin-top: 20px;
+}
+
+main .mentor-profile .profile-text h2 {
+  text-align: center;
+}
+/*# sourceMappingURL=mentor.css.map */

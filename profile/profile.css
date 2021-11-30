@@ -92,7 +92,7 @@ main .password-changed {
 }
 
 .sidebar {
-  display: none;
+  display: inline;
   background-color: white;
   width: 290px;
   height: 100vh;
