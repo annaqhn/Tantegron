@@ -88,10 +88,112 @@ main .mentor-profile .mentor-info .info-piece {
 }
 
 main .mentor-profile .profile-text {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 main .mentor-profile .profile-text h2 {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+main .mentor-profile .gallery {
+  margin-top: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .mentor-profile .gallery img {
+  width: 5rem;
+}
+
+main .mentor-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 50px 0;
+}
+
+main .mentor-signup .picture-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #424542;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+main .mentor-signup form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .mentor-signup input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+main .mentor-signup h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+main .mentor-signup h4 {
+  text-align: center;
+  color: grey;
+}
+
+main .mentor-signup textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.contact-form {
+  border-top: 1px solid #424542;
+  width: 100%;
+  padding: 40px 50px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 5px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  padding: 5px;
+  width: 100%;
+  color: #424542;
+  font-family: 'Jost', sans-serif;
 }
 /*# sourceMappingURL=mentor.css.map */
