@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/*start of header*/
+header {
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+          box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  height: 130px;
+  text-align: center;
+  width: 100%; }
+
+.burgermenu {
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 50px; }
+
+.logo img {
+  height: 90px;
+  margin-top: 20px; }
+
+.basket {
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-right: 100%; }
+
+.circle {
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  font-size: 15px;
+  height: 40px;
+  padding: 10px;
+  width: 40px; }
+
+/*end of header*/
+/*start of login section*/
+.login {
+  font-size: 15px;
+  margin: 40px;
+  text-align: center; }
+
+.login p {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center; }
+
+.login i {
+  font-size: 50px;
+  margin-top: 40px;
+  text-align: center; }
+
+.login input {
+  padding: 20px; }
+
+.login .form {
+  height: 50px;
+  width: 300px; }
+
+.check {
+  margin: 20px; }
+
+.glemt {
+  margin-top: 30px; }
+
+.glemt a {
+  color: #000000; }
+
+/*buttons*/
+.blk-btn {
+  background: #000;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  height: 50px;
+  width: 300px; }
+
+/*end of login section*/
+/*start of bottom navigation*/
+.bottom-nav {
+  bottom: 0;
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(41, 41, 41, 0.25);
+          box-shadow: 0px 0px 9px 3px rgba(41, 41, 41, 0.25);
+  height: 50px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%; }
+
+.bottom-nav i {
+  color: #000000;
+  font-size: 20px;
+  margin: 15px 30px; }
+
+/*end of bottom navigation*/
+
+/*# sourceMappingURL=login.css.map */
