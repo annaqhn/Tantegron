@@ -40,51 +40,40 @@ header {
   width: 40px; }
 
 /*end of header*/
-/*start of excluesive navigation*/
-.exclusive {
-  list-style: none;
+/*start of login section*/
+.login {
   font-size: 15px;
-  text-align: center;
-  height: 50px; }
-
-.exclusive li {
-  display: inline-block;
-  margin: 15px 30px; }
-
-.exclusive li a {
-  color: #000000;
-  text-decoration: none; }
-
-.exclusive li a:hover {
-  color: #8e9775;
-  text-decoration: underline; }
-
-/*end of excluesive navigation*/
-/*start of title section*/
-.title-section {
-  background: #CCCCCC;
-  height: 200px;
-  text-align: center;
-  padding: 50px;
-  width: 100%; }
-
-.title-section a {
-  color: #000000;
-  text-decoration: none; }
-
-.title-section p {
-  color: #707070;
-  font-size: 15px; }
-
-.title-section h1 {
-  padding-top: 10px;
-  font-size: 30px; }
-
-/*end of title section*/
-/*start of buttons*/
-.buttons {
+  margin: 40px;
   text-align: center; }
 
+.login p {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center; }
+
+.login i {
+  font-size: 50px;
+  margin-top: 40px;
+  text-align: center; }
+
+.login input {
+  padding: 20px; }
+
+.login .form {
+  height: 50px;
+  width: 300px; }
+
+.check {
+  margin: 20px; }
+
+.glemt {
+  margin-top: 30px; }
+
+.glemt a {
+  color: #000000; }
+
+/*buttons*/
 .blk-btn {
   background: #000;
   border-style: none;
@@ -94,24 +83,7 @@ header {
   height: 50px;
   width: 300px; }
 
-.wht-btn {
-  background: #fff;
-  border: 2px;
-  border-style: solid;
-  border-color: #000;
-  color: #000000;
-  cursor: pointer;
-  font-size: 15px;
-  height: 50px;
-  width: 300px; }
-
-.wht-btn:hover {
-  background: #000;
-  color: #fff;
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
-
-/*end of buttons*/
+/*end of login section*/
 /*start of bottom navigation*/
 .bottom-nav {
   bottom: 0;
@@ -130,4 +102,4 @@ header {
 
 /*end of bottom navigation*/
 
-/*# sourceMappingURL=features.css.map */
+/*# sourceMappingURL=login.css.map */
