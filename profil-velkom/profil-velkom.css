@@ -81,37 +81,88 @@ header {
   font-size: 30px; }
 
 /*end of title section*/
-/*start of buttons*/
-.buttons {
+/*start of forlob*/
+.min-forlob h1 {
+  font-size: 30px;
+  margin-top: 30px;
   text-align: center; }
 
-.blk-btn {
-  background: #000;
-  border-style: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 15px;
-  height: 50px;
-  width: 300px; }
+.min-forlob hr {
+  margin-bottom: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10px;
+  text-align: center;
+  width: 50%; }
 
-.wht-btn {
-  background: #fff;
-  border: 2px;
-  border-style: solid;
-  border-color: #000;
+/*section*/
+.forlob-section {
+  background-color: #red;
   color: #000000;
-  cursor: pointer;
-  font-size: 15px;
-  height: 50px;
-  width: 300px; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  line-height: 30px;
+  width: 100%; }
 
-.wht-btn:hover {
-  background: #000;
-  color: #fff;
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
+/*image*/
+.forlob-section img {
+  height: 100%; }
 
-/*end of buttons*/
+.align {
+  height: 60%; }
+
+/*text information*/
+.header-text {
+  font-size: 20px; }
+
+.content {
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 20px;
+  height: 60%;
+  width: 60%; }
+
+.content a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+
+.content a:hover {
+  color: #000000;
+  margin-left: 10px;
+  text-decoration: none; }
+
+/*progressbar*/
+.progressbar {
+  border: 1px solid #000;
+  border-radius: 20px;
+  height: 10px;
+  width: 100%; }
+
+.progress {
+  background: #8e9775;
+  border-radius: 20px;
+  height: 10px;
+  width: 50%; }
+
+.pro-text {
+  color: #707070;
+  font-size: 12px; }
+
+/*end of forlob*/
 /*start of bottom navigation*/
 .bottom-nav {
   background-color: #fff;
@@ -131,4 +182,4 @@ header {
 
 /*end of bottom navigation*/
 
-/*# sourceMappingURL=features.css.map */
+/*# sourceMappingURL=profil-velkom.css.map */
