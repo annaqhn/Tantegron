@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mentor.css">
+    <link rel="stylesheet" href="../Features/features.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mentorprofil</title>
 </head>
 <body>
+
+    <header>
+        <div class="burgermenu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="logo">
+          <a href="#">
+            <img src="../img/logo.png" alt="">
+          </a>
+        </div>
+
+        <div class="basket">
+          Kurv
+          <div class="circle">
+            0
+          </div>
+        </div>
+      </header>
+
+      <nav>
+        <ul class="exclusive">
+          <li><a href="#">Min profil</a></li>
+          <li><a href="#">Læringsforløb</a></li>
+          <li><a href="#">Mentor</a></li>
+        </ul>
+      </nav>
+
+      <section class="title-section">
+        <p><a href="#">Mentor</a> / Mentorprofil</p>
+        <h1>Mentorprofil</h1>
+      </section>
+
     <main>
         <div class="mentor-profile">
             <img src="../img/profil 1.png" alt="">
@@ -54,16 +88,35 @@
                 <img src="../img/gallery 2.png" alt="">
                 <img src="../img/gallery 3.png" alt="">
             </div>
-            <button>Kontakt Mentor</button>
+            <button class="blk-btn">Kontakt Mentor</button>
         </div>
+
+        <div style="padding:30px;"></div>
     </main>
+
+    <footer>
+        <a href="#">
+          <i class="fas fa-store"></i>
+        </a>
+        <a href="#">
+          <i class="fas fa-search"></i>
+        </a>
+        <a href="#">
+          <i class="far fa-user"></i>
+        </a>
+        <a href="#">
+          <i class="far fa-heart"></i>
+        </a>
+      </footer>
+
+
     <div class="contact-form">
         <h2>Kontakt mentor</h2>
         <form action="">
             <input id="name" type="text" placeholder="Navn">
             <input id="email" type="text" placeholder="Email">
             <textarea name="message" id="message" placeholder="Besked"></textarea>
-            <button type="submit">Send</button>
+            <button class="wht-btn" type="submit">Send</button>
         </form>
     </div>
 </body>
