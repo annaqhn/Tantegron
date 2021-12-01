@@ -174,17 +174,17 @@ header{
 
 /*progressbar*/
 .progressbar{
-	border: 1px solid #000;
-	border-radius: 20px;
-	height: 10px;
-	width: 100%;
-}
-
-.progress{
 	background: $primary-color;
 	border-radius: 20px;
 	height: 10px;
-	width: 50%;
+	width: 50px;
+}
+
+.progress{
+	border: 1px solid #000;
+	border-radius: 20px;
+	height: 10px;
+	width: 200px;
 }
 
 .pro-text{
