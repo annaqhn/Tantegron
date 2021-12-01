@@ -80,7 +80,6 @@ header{
 
 
 
-
 /*start of title section*/
 .title-section{
   background: $secondary-color;
@@ -110,41 +109,91 @@ header{
 
 
 
-
-
-/*start of buttons*/
-.buttons{
+/*start of forlob*/
+.min-forlob h1{
+	font-size: $titles;
+	margin-top: 30px;
 	text-align: center;
 }
 
-.blk-btn{
-	background: #000;
-	border-style: none;
-	color: #fff;
-	cursor: pointer;
-	font-size: $body-text;
-	height: 50px;
-	width: 300px;
+.min-forlob hr{
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10px;
+	text-align: center;
+	width: 50%;
 }
 
-.wht-btn{
-	background: #fff;
-	border: 2px;
-	border-style: solid;
-	border-color: #000;
+/*section*/
+.forlob-section{
+	background-color: #red;
 	color: $text-color;
-	cursor: pointer;
-	font-size: $body-text;
-	height: 50px;
-	width: 300px;
+  display: flex;
+ 	height: 200px;
+	justify-content: center;
+	position: relative;
+	line-height: 30px;
+  width: 100%;
 }
 
-.wht-btn:hover{
-	background: #000;
-	color: #fff;
-	transition: 0.4s;
+/*image*/
+.forlob-section img{
+	height: 100%;
 }
-/*end of buttons*/
+
+.align{
+	height: 60%;
+}
+
+/*text information*/
+.header-text{
+  font-size: 20px;
+}
+
+.content{
+	border-radius: 4px;
+	display: flex;
+  flex-direction: column;
+	padding-left: 20px;
+	height: 60%;
+  width: 60%;
+}
+
+.content a{
+	color: $text-color;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.content a:hover{
+	color: $text-color;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+/*progressbar*/
+.progressbar{
+	border: 1px solid #000;
+	border-radius: 20px;
+	height: 10px;
+	width: 100%;
+}
+
+.progress{
+	background: $primary-color;
+	border-radius: 20px;
+	height: 10px;
+	width: 50%;
+}
+
+.pro-text{
+	color: #707070;
+	font-size: 12px;
+}
+/*end of forlob*/
+
+
 
 
 
