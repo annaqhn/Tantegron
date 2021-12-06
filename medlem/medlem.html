@@ -33,40 +33,48 @@
 
 
       <!--start of bliv medlem form-->
-      <section class="login">
+      <form class="login" action="POST">
         <i class="far fa-user"></i>
-        <p>Bliv medlem</p>
+        <h1>Bliv medlem</h1>
 
-        <div class="navn">
-          <input class="navn" type="text" placeholder="Navn" name="navn" required>
-          <input class="navn" type="text" placeholder="Efternavn" name="enavn" required>
-        </div>
+        
 
         <div class="input-form">
-          <br>
-          <input class="form" type="text" placeholder="Email" name="email" required>
-          <br>
-          <br>
-          <input class="form" type="password" placeholder="Adgangskode" name="psw" required>
+          <label for="navn"><p>Fornavn:</p></label>
+          <input class="form" type="text" placeholder="Navn" name="navn" required>
           <br>
           <br>
-          <input class="form" type="text" placeholder="dd/mm/åååå" name="dato" required>
+          <label for="efternavn"><p>Efternavn:</p></label>
+          <input class="form" type="text" placeholder="Efternavn" name="efternavn" required>
+          <br>
+          <br>
+          <label for="email"><p>Email:</p></label>
+          <input id="email" class="form" type="text" placeholder="Email" name="email" required>
+          <br>
+          <br>
+          <label for="psw"><p>Adgangskode:</p></label>
+          <input id="psw" class="form" type="password" placeholder="Adgangskode" name="psw" required>
+          <br>
+          <br>
+          <label for="dato"><p>Dato:</p></label>
+          <input id="dato" class="form" type="text" placeholder="dd/mm/åååå" name="dato" required>
         </div>
 
         <div class="check">
-          <input type="checkbox" name="remember"> Jeg acceptere vilkår og betingelser
+          <input type="checkbox" name="remember"> Jeg accepterer vilkår og betingelser
         </div>
-
 
         <button type="submit" name="button" class="blk-btn"> Bliv medlem </button>
         <br>
-        <div class="glemt">
+
+      </form>
+      
+        <div class="glemt login" >
           <a href="login.html">Allerede medlem?</a>
         </div>
-      </section>
       <!--end of login form-->
 
-
+      <div style="padding: 30px;"></div>
 
 
       <!--start of bottom navigation-->

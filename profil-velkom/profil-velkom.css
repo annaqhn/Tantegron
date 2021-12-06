@@ -2,33 +2,40 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /*start of header*/
 header {
   -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
           box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 20% auto 20%;
+  -ms-grid-columns: 20% auto 20%;
+      grid-template-columns: 20% auto 20%;
   height: 130px;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .burgermenu {
   cursor: pointer;
   font-size: 20px;
-  padding-top: 50px; }
+  padding-top: 50px;
+}
 
 .logo img {
   height: 90px;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .basket {
   cursor: pointer;
   float: right;
   font-size: 15px;
   padding-top: 30px;
-  padding-right: 100%; }
+  padding-right: 100%;
+}
 
 .circle {
   border-style: solid;
@@ -37,7 +44,8 @@ header {
   font-size: 15px;
   height: 40px;
   padding: 10px;
-  width: 40px; }
+  width: 40px;
+}
 
 /*end of header*/
 /*start of excluesive navigation*/
@@ -45,19 +53,23 @@ header {
   list-style: none;
   font-size: 15px;
   text-align: center;
-  height: 50px; }
+  height: 50px;
+}
 
 .exclusive li {
   display: inline-block;
-  margin: 15px 30px; }
+  margin: 15px 30px;
+}
 
 .exclusive li a {
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .exclusive li a:hover {
   color: #8e9775;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 /*end of excluesive navigation*/
 /*start of title section*/
@@ -66,26 +78,31 @@ header {
   height: 200px;
   text-align: center;
   padding: 50px;
-  width: 100%; }
+  width: 100%;
+}
 
 .title-section a {
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .title-section p {
   color: #707070;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .title-section h1 {
   padding-top: 10px;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 /*end of title section*/
 /*start of forlob*/
 .min-forlob h1 {
   font-size: 30px;
   margin-top: 30px;
-  text-align: center; }
+  text-align: center;
+}
 
 .min-forlob hr {
   margin-bottom: 50px;
@@ -93,7 +110,8 @@ header {
   margin-right: 25%;
   margin-top: 10px;
   text-align: center;
-  width: 50%; }
+  width: 50%;
+}
 
 /*section*/
 .forlob-section {
@@ -108,18 +126,22 @@ header {
           justify-content: center;
   position: relative;
   line-height: 30px;
-  width: 100%; }
+  width: 100%;
+}
 
 /*image*/
 .forlob-section img {
-  height: 100%; }
+  height: 100%;
+}
 
 .align {
-  height: 60%; }
+  height: 60%;
+}
 
 /*text information*/
 .header-text {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .content {
   border-radius: 4px;
@@ -132,35 +154,41 @@ header {
           flex-direction: column;
   padding-left: 20px;
   height: 60%;
-  width: 60%; }
+  width: 60%;
+}
 
 .content a {
   color: #000000;
   text-decoration: none;
   -webkit-transition: 0.2s;
-  transition: 0.2s; }
+  transition: 0.2s;
+}
 
 .content a:hover {
   color: #000000;
   margin-left: 10px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*progressbar*/
 .progressbar {
   background: #8e9775;
   border-radius: 20px;
   height: 10px;
-  width: 50px; }
+  width: 50px;
+}
 
 .progress {
   border: 1px solid #000;
   border-radius: 20px;
   height: 10px;
-  width: 200px; }
+  width: 200px;
+}
 
 .pro-text {
   color: #707070;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 /*end of forlob*/
 /*start of bottom navigation*/
@@ -173,13 +201,14 @@ header {
   left: 0;
   position: fixed;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .bottom-nav i {
   color: #000000;
   font-size: 20px;
-  margin: 15px 30px; }
+  margin: 15px 30px;
+}
 
 /*end of bottom navigation*/
-
 /*# sourceMappingURL=profil-velkom.css.map */
