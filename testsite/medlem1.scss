@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+$primary-color: #8e9775;
+$secondary-color: #CCCCCC;
+$text-color: #000000;
+$titles: 30px;
+$body-text: 15px;
+
+body{
+	
+}
+
+/*start of header*/
+header{
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  height: 130px;
+  text-align: center;
+  width: 100%;
+}
+
+.burgermenu{
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.logo img{
+  height: 90px;
+  margin-top: 20px;
+}
+
+.basket{
+  cursor: pointer;
+	float: right;
+	font-size: $body-text;
+  padding-top: 30px;
+  padding-right: 100%;
+}
+
+.circle{
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  font-size: $body-text;
+  height: 40px;
+  padding: 10px;
+  width: 40px;
+}
+/*end of header*/
+
+
+
+
+/*start of login section*/
+.login{
+	font-size: $body-text;
+	margin: 40px;
+  text-align: center;
+
+}
+
+.login p{
+	font-size: $titles;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.login i{
+	font-size: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.navn input{
+	height: 50px;
+	width: 150px;
+}
+
+
+.login input{
+	padding: 20px;
+}
+
+.login .form {
+	height: 50px;
+	width: 300px;
+}
+
+
+.check{
+	margin: 20px;
+}
+
+.glemt{
+	margin-top: 30px;
+}
+
+.glemt a{
+	color: $text-color;
+}
+
+/*buttons*/
+.blk-btn{
+	background: #000;
+	border-style: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: $body-text;
+	height: 50px;
+	width: 300px;
+}
+
+/*end of login section*/
+
+
+
+
+
+
+
+
+/*start of bottom navigation*/
+.bottom-nav {
+	background-color: #fff;
+  bottom: 0;
+  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  height: 50px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-nav i{
+	color: $text-color;
+  font-size: 20px;
+  margin: 15px 30px;
+}
+/*end of bottom navigation*/
