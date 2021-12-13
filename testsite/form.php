@@ -16,7 +16,7 @@
         $pw = "";
         $db = "tantegr";
 
-        // Create connection
+        //Create connection
           $conn = new mysqli($server, $user, $pw, $db);
           // Check connection
           if ($conn->connect_error) {
@@ -27,7 +27,7 @@
 
 
         //This below line is a code to Send form entries to database
-        $sql = "INSERT INTO brugere (Fornavn, Efternavn, Email, Adgangskode, Fødselsdato ) VALUES ('$fornavn', '$efternavn', '$email', '$adgangskode', '$newdate')";
+        $sql = "INSERT INTO tg_brugere (Fornavn, Efternavn, Email, Adgangskode, Fødselsdato ) VALUES ('$fornavn', '$efternavn', '$email', '$adgangskode', '$newdate')";
         if ($conn->query($sql) === TRUE) {
           echo "New record created successfully";
         } else {
